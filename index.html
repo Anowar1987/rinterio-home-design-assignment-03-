@@ -18,13 +18,26 @@
             font-family: "Manrope", sans-serif;
         }
     </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                "btn-color": '#ABEF5F',
+              }
+            }
+          }
+        }
+      </script>
+    
 </head>
 
 <body class=".font-manpore">
     <!-- Header section -->
     <header>
         <!-- Navbar section starts -->
-        <nav>
+        <nav class="mt-4 mx-40">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -37,31 +50,41 @@
                         </div>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
-                            <li><a>Services</a></li>
-                            <li><a>Portfolio</a></li>
-                            <li><a>Blog</a></li>
-                            <li><a>Contact Us</a></li>
+                            <li><a class="font-extrabold text-gray-600">Home</a></li>
+                            <li><a class="text-[#737373]">Services</a></li>
+                            <li><a class="text-[#737373]">Portfolio</a></li>
+                            <li><a class="text-[#737373]">Blog</a></li>
+                            <li><a class="text-[#737373]">Contact Us</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl">Rinterio</a>
+                    <a class="btn btn-ghost text-3xl font-extrabold">Rinterio</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
-                        <li><a>Services</a></li>
-                        <li><a>Portfolio</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Contact Us</a></li>
+                        <li><a class="font-extrabold text-gray-600">Home</a></li>
+                        <li><a class="text-[#737373]">Services</a></li>
+                        <li><a class="text-[#737373]">Portfolio</a></li>
+                        <li><a class="text-[#737373]">Blog</a></li>
+                        <li><a class="text-[#737373]">Contact Us</a></li>
                     </ul>
                 </div>
 
                 <div class="navbar-end">
-                    <a class="btn">Book Consult</a>
+                    <a class="btn bg-btn-color">Book Consult</a>
                 </div>
 
             </div>
         </nav>
+
+        <!-- Banner section starts -->
+         <div>
+            <!-- Image-content -->
+             <div class="">
+                <img src="assets/banner.png" alt="">
+             </div>
+             <!-- Text content -->
+              <div></div>
+         </div>
     </header>
     <!-- Main section -->
     <main></main>
